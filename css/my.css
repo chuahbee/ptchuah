@@ -1,0 +1,313 @@
+.percent50,.percent60,.percent70 {
+    margin: auto;
+    /* padding-bottom: 30px; */
+}
+.percent50 {
+    width: 50%;
+}
+.percent60 {
+    width: 60%;
+}
+.percent70 {
+    width: 70%;
+}
+.col-wh{
+    color: #fff;
+}
+.col-grey{
+    color: #CBCBCB;
+}
+.myor-btn {
+    background: radial-gradient(90.28% 90.28% at 31.94% 9.72%, #FFC996 0%, #FF810D 32.48%, #FF4D00 82.41%);
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: 700;
+    color: #fff;
+    width: 300px;
+    text-align: center;
+    padding: 15px 10px;
+    line-height: normal;
+    margin: 30px auto;
+}
+.myor-btn2 br{
+display: block;}
+.myor-btn2{
+    background: radial-gradient(90.28% 90.28% at 31.94% 9.72%, #FFEE96 0%, #FFE70D 32.48%, #FF9110 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+box-shadow: 0px 0px 11px rgba(255, 211, 14, 0.4);
+border-radius: 10px;
+display: flex;align-items: center;flex-wrap: nowrap;color: #000;margin: 30px auto;padding: 7px 30px;}
+.myadd01 .myor-btn {margin: 10px auto;}
+.myor-btn p{
+    font-size: 12px;
+    font-weight: normal;
+    margin: 0;
+}
+.myor-btn2 p{
+    
+font-weight: 700;
+font-size: 20px;line-height: 16px;margin: 0;text-align: center;}
+.myor-btn2 span{
+    
+font-weight: normal;
+font-size: 14px;}
+.logo{
+    margin-bottom: 20px;
+}
+.filmbox{
+    background: url("img/filmbg2.jpg") top center; 
+    visibility: visible; 
+    animation-duration: 1500ms;
+    background-size: contain;
+}
+.branches-section.top {
+    position: relative;
+    margin-top: 30px;
+}
+.branches-section.gg.top {
+    position: relative;
+    margin-top: 0px;
+background: #282828;}
+.why-choose-block .inner-box .icon i{
+    height: 70px;
+    width: 70px;
+    position: absolute;
+    right: 0px;
+}
+.why-choose-block .inner-box .icon i.myicon01{
+    background: url(/img/gp3/1.png) no-repeat center;
+}
+.why-choose-block .inner-box:hover .icon i.myicon01{
+    background: url(/img/gp3/1a.png) no-repeat center;
+}
+.why-choose-block .inner-box .icon i.myicon02{
+    background: url(/img/gp3/2.png) no-repeat center;
+}
+.why-choose-block .inner-box:hover .icon i.myicon02{
+    background: url(/img/gp3/2a.png) no-repeat center;
+}
+.why-choose-block .inner-box .icon i.myicon03{
+    background: url(/img/gp3/3.png) no-repeat center;
+}
+.why-choose-block .inner-box:hover .icon i.myicon03{
+    background: url(/img/gp3/3a.png) no-repeat center;
+}
+.why-choose-block .inner-box .icon i.myicon04{
+    background: url(/img/gp3/4.png) no-repeat center;
+}
+.why-choose-block .inner-box:hover .icon i.myicon04{
+    background: url(/img/gp3/4a.png) no-repeat center;
+}
+.why-choose-block .inner-box .icon i.myicon05{
+    background: url(/img/gp3/5.png) no-repeat center;
+}
+.why-choose-block .inner-box:hover .icon i.myicon05{
+    background: url(/img/gp3/5a.png) no-repeat center;
+}
+.why-choose-block .inner-box .icon i.myicon06{
+    background: url(/img/gp3/6.png) no-repeat center;
+}
+.why-choose-block .inner-box:hover .icon i.myicon06{
+    background: url(/img/gp3/6a.png) no-repeat center;
+}
+.myadd01,.myadd2{
+display: flex;justify-content: center;align-items: center;
+}
+.myadd01 .left{
+width: 240px;display: flex;justify-content: center;
+}
+.myadd01 .right{
+display: flex;flex-direction: column;align-items: flex-start;
+}
+.myadd01 .right span{
+    font-weight: 600;
+}
+/* .myadd2{
+    display: flex;justify-content: center;align-items: center;
+} */
+.myadd2 .left,.myadd2 .right{
+    width: 50%;
+}
+.myadd2 .left{
+    display: flex;justify-content: center;
+    }
+    .myadd2 .right{
+    display: flex;flex-direction: column;align-items: flex-start;
+    }
+    .myadd2 .right h2{
+        font-weight: 600;
+        font-size: 22px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+    .myadd2 .right li{
+        
+    display: flex;position: relative;align-items: center;}
+.myadd2 .right li .myicon1{
+    background: url('/img/num22.png') no-repeat center;
+    height:60px;
+    width:60px;
+}
+.myadd2 .right li .myicon1 span{
+    position: absolute;
+    top: 16px;color: #f00;left: 18px;font-size: 14px;text-align: center;
+}
+.cp-box{
+    position: absolute;
+    width: 337px;
+    height: 98px;
+    right: 0;
+    bottom: 0;
+    background: #100F0F;
+    border: 2px solid #FFFFFF;
+    box-sizing: border-box;
+    box-shadow: 0px 0px 10px 3px rgba(255, 255, 255, 0.25);
+    border-radius: 10px;
+    color: #CBCBCB;
+display: flex;align-items: center;padding: 10px 15px;}
+.cp-box p{
+    margin:0;
+font-weight: 600;}
+.cp-box span{
+font-weight: normal;}
+.gg iframe{
+    height: 350px;
+}
+.my-ft{
+
+width: 60%;
+    margin: auto;display: flex;flex-direction: column;align-items: center;color: #fff;}
+.my-ft img{
+
+width: 75%;}
+.my-ft h4{
+
+
+
+font-weight: 300;
+font-size: 24px;color: #fff;letter-spacing: 3px;text-align: center;}
+.my-ft .location-box{
+
+width: 60%;margin: auto;display: flex;flex-direction: column;align-items: center;text-align: center;font-size: 14px;line-height: normal;margin-top: 120px;}
+.my-ft .location-box .map-icon-box{
+    width: 45px;
+    height: 45px;
+    border-radius: 100%;
+    background: radial-gradient(92.86% 92.86% at 28.57% 7.14%, #B3B3B3 0%, #363636 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+    box-shadow: 0px 4px 11px rgb(0 0 0 / 30%);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 10px;
+}
+.my-ft .location-box .map-icon-box svg{
+    font-size: 30px;
+}
+.my-mb50{
+    margin-bottom: 50px;
+}
+.my-mt50{
+    margin-top: 50px;
+}
+.ic-1{
+    width: 45px;
+    height:45px;
+    background: url('/img/gp6/1.png');
+}
+.ic-2{
+    width: 45px;
+    height:45px;
+    background: url('/img/gp6/2.png');
+}
+.ic-3{
+    width: 45px;
+    height:45px;
+    background: url('/img/gp6/3.png');
+}
+.statement-section .nav-tabs.tab-btn-style-one .nav-item .nav-link.active .ic-1, .statement-section .nav-tabs.tab-btn-style-one .nav-item .nav-link:hover .ic-1{
+    background: url('/img/gp6/1a.png');
+}
+.statement-section .nav-tabs.tab-btn-style-one .nav-item .nav-link.active .ic-2, .statement-section .nav-tabs.tab-btn-style-one .nav-item .nav-link:hover .ic-2{
+    background: url('/img/gp6/2a.png');
+}
+.statement-section .nav-tabs.tab-btn-style-one .nav-item .nav-link.active .ic-3, .statement-section .nav-tabs.tab-btn-style-one .nav-item .nav-link:hover .ic-3{
+    background: url('/img/gp6/3a.png');
+}
+.cv-box{
+    background: #FF6B00;
+    height: auto;
+    padding: 0px 10px;
+width: fit-content;max-width: 80%;transform: skew(349deg);display: flex;align-items: center;margin-bottom: 10px;}
+.cv-box .text-box{
+    transform: skew(13deg);
+    color: #fff;
+font-size: 14px;}
+.certificate-section .owl-theme .owl-nav .owl-next svg{
+    background: url('https://api.iconify.design/dashicons/arrow-right-alt2.svg') no-repeat center center / contain;
+}
+.certificate-section .owl-theme .owl-nav .owl-prew svg{
+    background: url('https://api.iconify.design/dashicons/arrow-right-alt2.svg') no-repeat center center / contain;
+}
+.link-box-my{
+
+display: flex;justify-content: center;align-items: center;flex-wrap: wrap;}
+.link-box-my .left{
+
+margin: 0 15px;}
+.link-box-my .right{
+    
+margin: 0 15px;}
+.dw-box{
+    background: radial-gradient(90.91% 90.91% at 15.45% 2.73%, #585858 28.31%, #121212 70.5%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+box-shadow: 3px 2px 7px rgba(0, 0, 0, 0.3);
+border-radius: 10px;
+width: 50px;height: 50px;display: flex;align-items: center;justify-content: center;margin-left: 15px;}
+.dw-box svg{
+    color: #CBCBCB;
+font-size: 25px;}
+.lt-tit{
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+/* responsive */
+@media only screen and (max-width: 600px) {
+    .percent50,.percent60,.percent70 {
+        width: 100%;
+    }
+    .myadd01,.myadd2 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .myadd01 .right,.myadd01 .right p {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .myadd2 .left,.myadd2 .right{
+        width: 100%;
+    }
+    .my-ft {
+        width: 100%;
+    }
+    .my-ft .location-box{
+        width: 100%;
+    }
+    .footer-bottom .menu{
+        display: flex;
+        flex-direction: column;
+    }
+    .myor-btn2 {
+        margin: 30px auto;
+        padding: 7px 26px;
+    }
+    .whychooseus-block-four {
+        width: 100%;
+        margin: 10px 0;
+        float: left;
+    }
+    .whychooseus-block-four .inner-box{
+        height:fit-content
+    }
+}
