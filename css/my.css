@@ -74,40 +74,40 @@ background: #282828;}
     right: 0px;
 }
 .why-choose-block .inner-box .icon i.myicon01{
-    background: url(/img/gp3/1.png) no-repeat center;
+    background: url(../img/gp3/1.png) no-repeat center;
 }
 .why-choose-block .inner-box:hover .icon i.myicon01{
-    background: url(/img/gp3/1a.png) no-repeat center;
+    background: url(../img/gp3/1a.png) no-repeat center;
 }
 .why-choose-block .inner-box .icon i.myicon02{
-    background: url(/img/gp3/2.png) no-repeat center;
+    background: url(../img/gp3/2.png) no-repeat center;
 }
 .why-choose-block .inner-box:hover .icon i.myicon02{
-    background: url(/img/gp3/2a.png) no-repeat center;
+    background: url(../img/gp3/2a.png) no-repeat center;
 }
 .why-choose-block .inner-box .icon i.myicon03{
-    background: url(/img/gp3/3.png) no-repeat center;
+    background: url(../img/gp3/3.png) no-repeat center;
 }
 .why-choose-block .inner-box:hover .icon i.myicon03{
-    background: url(/img/gp3/3a.png) no-repeat center;
+    background: url(../img/gp3/3a.png) no-repeat center;
 }
 .why-choose-block .inner-box .icon i.myicon04{
-    background: url(/img/gp3/4.png) no-repeat center;
+    background: url(../img/gp3/4.png) no-repeat center;
 }
 .why-choose-block .inner-box:hover .icon i.myicon04{
-    background: url(/img/gp3/4a.png) no-repeat center;
+    background: url(../img/gp3/4a.png) no-repeat center;
 }
 .why-choose-block .inner-box .icon i.myicon05{
-    background: url(/img/gp3/5.png) no-repeat center;
+    background: url(../img/gp3/5.png) no-repeat center;
 }
 .why-choose-block .inner-box:hover .icon i.myicon05{
-    background: url(/img/gp3/5a.png) no-repeat center;
+    background: url(../img/gp3/5a.png) no-repeat center;
 }
 .why-choose-block .inner-box .icon i.myicon06{
-    background: url(/img/gp3/6.png) no-repeat center;
+    background: url(../img/gp3/6.png) no-repeat center;
 }
 .why-choose-block .inner-box:hover .icon i.myicon06{
-    background: url(/img/gp3/6a.png) no-repeat center;
+    background: url(../img/gp3/6a.png) no-repeat center;
 }
 .myadd01,.myadd2{
 display: flex;justify-content: center;align-items: center;
@@ -143,7 +143,7 @@ display: flex;flex-direction: column;align-items: flex-start;
         
     display: flex;position: relative;align-items: center;}
 .myadd2 .right li .myicon1{
-    background: url('/img/num22.png') no-repeat center;
+    background: url('../img/num22.png') no-repeat center;
     height:60px;
     width:60px;
 }
@@ -211,26 +211,26 @@ width: 60%;margin: auto;display: flex;flex-direction: column;align-items: center
 .ic-1{
     width: 45px;
     height:45px;
-    background: url('/img/gp6/1.png');
+    background: url('../img/gp6/1.png');
 }
 .ic-2{
     width: 45px;
     height:45px;
-    background: url('/img/gp6/2.png');
+    background: url('../img/gp6/2.png');
 }
 .ic-3{
     width: 45px;
     height:45px;
-    background: url('/img/gp6/3.png');
+    background: url('../img/gp6/3.png');
 }
 .statement-section .nav-tabs.tab-btn-style-one .nav-item .nav-link.active .ic-1, .statement-section .nav-tabs.tab-btn-style-one .nav-item .nav-link:hover .ic-1{
-    background: url('/img/gp6/1a.png');
+    background: url('../img/gp6/1a.png');
 }
 .statement-section .nav-tabs.tab-btn-style-one .nav-item .nav-link.active .ic-2, .statement-section .nav-tabs.tab-btn-style-one .nav-item .nav-link:hover .ic-2{
-    background: url('/img/gp6/2a.png');
+    background: url('../img/gp6/2a.png');
 }
 .statement-section .nav-tabs.tab-btn-style-one .nav-item .nav-link.active .ic-3, .statement-section .nav-tabs.tab-btn-style-one .nav-item .nav-link:hover .ic-3{
-    background: url('/img/gp6/3a.png');
+    background: url('../img/gp6/3a.png');
 }
 .cv-box{
     background: #FF6B00;
