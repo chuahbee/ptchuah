@@ -40034,7 +40034,7 @@ display: flex;flex-direction: column;justify-content: center;}
 
 .about-section .image {
     margin-bottom: 30px
-}
+;margin-top: 30px;}
 
 .Whychooseus-section {
     position: relative;
