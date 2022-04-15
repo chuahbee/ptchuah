@@ -37221,7 +37221,7 @@ box-shadow: 0px 0px 3px 1px rgba(49, 49, 49, 0.3);}
 }
 
 body {
-    font-size: 16px;
+    font-size: 18px;
     color: #2a2a2a;
     line-height: 1.7em;
     font-weight: 400;
@@ -39286,7 +39286,15 @@ img {
     /* transition: all .5s ease; */
     /* -webkit-transform: translateY(20px); */
     -ms-transform: translateY(20px);
-    /* transform: translateY(20px); */}
+    /* transform: translateY(20px); */margin: 0 30px;letter-spacing: 0.03rem;
+}
+.banner-section .content-box span{
+    background: #FF6B00;
+    box-shadow: 0px 0px 12px rgba(255, 153, 0, 0.9);
+    padding: 0 10px;
+    margin: 0 10px;
+    transform: skew(15deg, 15deg);
+}
 
 .banner-section .swiper-slide-active h4 {
     opacity: 1;
@@ -39312,7 +39320,7 @@ img {
     /* transition: all .5s ease; */
     /* -webkit-transform: translateX(-50px); */
     -ms-transform: translateX(-50px);
-    /* transform: translateX(-50px); */}
+    /* transform: translateX(-50px); */margin: 0 30px;padding-top: 20px;letter-spacing: 0.03rem;margin-bottom: 30px;}
 
 .banner-section .swiper-slide-active .text {
     opacity: 1;
@@ -39786,7 +39794,10 @@ img {
     position: relative;
     margin-bottom: 55px
 }
-
+.branches-section .sec-title {
+    position: relative;
+    margin-bottom: 0px
+}
 .sec-title .sub-title {
     position: relative;
     font-size: 15px;
@@ -39823,8 +39834,8 @@ img {
 
 .sec-title h2 {
     position: relative;
-    font-size: 21px;
-    font-weight: 500;}
+    font-size: 32px;
+    font-weight: 600;margin-bottom: 20px;/* letter-spacing: 0.03rem; */line-height: initial;}
 
 .sec-title .text {
     position: relative;
@@ -40151,7 +40162,11 @@ display: flex;flex-direction: column;justify-content: center;}
     position: relative;
     text-align: center;
     margin-bottom: 30px
-;margin-top: -15px;}
+;margin-top: -45px;}
+
+.work-process-block{
+margin-top: 110px;
+}
 
 .work-process-block .count {
     position: relative;
@@ -41038,7 +41053,7 @@ font-size: 18px;
 }
 
 .branches-section .owl-carousel .owl-stage {
-    padding-top: 70px;
+    padding-top: 30px;
     padding-bottom: 30px
 }
 .branches-section.gg .owl-carousel .owl-stage {
@@ -41081,9 +41096,9 @@ font-size: 18px;
     /* content: "\f163"; */
     position: absolute;
     top: 0;
-    width: 70px;
-    height: 70px;
-    line-height: 60px;
+    width: 50px;
+    height: 50px;
+    line-height: 40px;
     left: 0;
     color: #dfd7d3;
     
@@ -41126,9 +41141,9 @@ box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.25);font-size: 40px;}
     /* content: "\f163"; */
     position: absolute;
     top: 0;
-    width: 70px;
-    height: 70px;
-    line-height: 60px;
+    width: 50px;
+    height: 50px;
+    line-height: 40px;
     right: 0;
     color: #dfd7d3;
     background: #ffff;

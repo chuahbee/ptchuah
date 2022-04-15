@@ -1,10 +1,10 @@
 .percent50,.percent60,.percent70 {
     margin: auto;
     /* padding-bottom: 30px; */
-}
+letter-spacing: 0.03rem;}
 .percent50 {
     width: 50%;
-}
+/* letter-spacing: 0.03rem; */}
 .percent60 {
     width: 60%;
 }
@@ -271,6 +271,13 @@ font-size: 25px;}
 }
 /* responsive */
 @media only screen and (max-width: 600px) {
+    .inner.gg{
+        
+    margin: 0 -30px;
+    }
+    .statement-section .gg {
+        
+    margin: 0;padding: 0;}
     .percent50,.percent60,.percent70 {
         width: 100%;
     }
