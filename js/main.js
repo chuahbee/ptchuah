@@ -1,39 +1,10 @@
 ! function(e) {
     "use strict";
-    // e(window).on("load", (function() {
-    //     e(".preloader").fadeOut()
-    // })), e(".preloader").length > 0 && e(".preloaderCls").each((function() {
-    //     e(this).on("click", (function(t) {
-    //         t.preventDefault(), e(".preloader").css("display", "none")
-    //     }))
-    // })), 
-    e(".mobile-menu-active").vsmobilemenu({
-        menuContainer: ".vs-mobile-menu",
-        expandScreenWidth: 992,
-        menuToggleBtn: ".vs-menu-toggle"
-    });
+  
     var t, a, n, s, i, o, l = "";
 
     function r() {
-        let t = e(".main-menu > .menu-item-has-children > ul"),
-            a = e(".main-menu .menu-item-has-children > ul > ul");
-        t.each((function() {
-            e(window).width() > 991 && (e(this).offset().left + e(this).width() > e(window).width() ? e(this).css({
-                left: "auto",
-                right: "100%"
-            }) : e(this).css({
-                left: "0",
-                right: "auto"
-            }))
-        })), a.each((function() {
-            e(window).width() > 991 && e(this).offset().left + e(this).width() > e(window).width() && (e(this).css({
-                left: "auto",
-                right: "100%"
-            }), e(this).find(".sub-menu").css({
-                left: "auto",
-                right: "100%"
-            }))
-        }))
+       
     }(e(window).on("scroll", (function() {
         var t, a, n;
         t = e(".sticky-header"), a = "active", n = e(window).scrollTop(), e(window).scrollTop() > 600 ? n > l ? t.removeClass(a) : t.addClass(a) : t.removeClass(a), l = n, e(this).scrollTop() > 400 ? e(".scrollToTop").addClass("show") : e(".scrollToTop").removeClass("show")
